@@ -1,0 +1,10 @@
+fonts <- font_files()
+font_add("Adobe Devanagari", "AdobeDevanagari-Bold.otf")
+font_add("Adobe Gothic Std B", "AdobeGothicStd-Bold.otf")
+font_add("Comic Sans MS", "comicbd.ttf")
+font_add("Tw Cen MT", "TCB_____.TTF")
+font_add("Elephan", "ELEPHNT.TTF")
+showtext_opts(dpi = 300)
+showtext_auto()
+
+View(fonts)
